@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="WDD 230 - Web Frontend Development">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Pierce Cirks">    
+  <meta name="portal" content="course assignment portal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="styles/base.css">
+  <title>Pierce Cirks - WDD 230 - Web Frontend Development</title>
+</head>
+<body>
+  <header>
+    <img src="images/profile-photo.jpg" alt="Family Photo">
+    <h1>Pierce Cirks</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+      <li><a href="chamber/">Chamber</a></li>
+      <li><a href="https://byui.pathify.com/dashboard" target="_blank">BYU-Idaho</a></li>
+      <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scriptures</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>WDD 230: Web Development</h2>
+    <section class="card">
+      <h3>Information</h3>
+      <ul>
+      <li>Weather</li>
+      <li id="visitCount"></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Pierce Cirks.</p>
+    <p id="lastModified"></p>
+  </footer>
+  
+  <script src="scripts/getdates.js"></script>
+</body>
+</html>
