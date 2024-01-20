@@ -13,6 +13,12 @@
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
+  /* Color Scheme */
+  :root {
+    --primary-color: #222222; /* Gray */
+    --secondary-color: #1C5D99; /* Blue */
+  }
+  
   /* Sections
      ========================================================================== */
   

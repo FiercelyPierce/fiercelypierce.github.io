@@ -1,50 +1,60 @@
-/* Color Scheme */
-:root {
-    --primary-color: #222222; /* Gray */
-    --secondary-color: #1C5D99; /* Blue */
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    max-width: 960px;
-    margin: 0 auto;
-    color: var(--text-color);
 }
 
 main {
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
     display: grid;
-    grid-template: auto / 1fr 1fr 1fr;
-    section {
-        margin-bottom: 20px;
-        grid-column: span 3;
-    }
+    grid-template: auto / 1fr 1fr;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
 nav {
-    margin-bottom: 20px;
-    padding: 10px;
     background-color: var(--secondary-color);
-    border-radius: 5px;
-    box-shadow: 0 0 10px black;
 }
 
 nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 0;
 }
 
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
+nav ul li {
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
+nav ul li a {
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition-duration: 0.5s;
 }
 
 h2 {
+    grid-column: span 2;
     font-size: 20px;
     font-weight: bold;
 }
@@ -59,18 +69,36 @@ p {
 }
 
 img {
-    width: 420px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 120px;
+    padding: 1rem;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.card {
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    grid-column: span 2;
 }
 
-a:hover {
+.card ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.card ul li a:hover {
     color: black;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
