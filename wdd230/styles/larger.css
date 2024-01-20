@@ -1,0 +1,23 @@
+@media screen and (min-width: 965px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h2 {
+        grid-column: span 2;
+        margin-left: 10px;
+    }
+
+    nav ul li a {
+        padding: 1rem;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
