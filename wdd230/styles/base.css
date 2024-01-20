@@ -77,21 +77,18 @@ h1 {
 }
 
 .card {
-    padding: 20px;
-    margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .card ul li a {
     text-decoration: none;
-    padding: 10px;
     transition-duration: 0.5s;
 }
 
 .card ul li a:hover {
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: black;
     transition-duration: 0.25s;
 }
