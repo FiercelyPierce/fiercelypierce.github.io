@@ -4,7 +4,6 @@ if(localStorage.getItem('visitCount')) {
     localStorage.setItem('visitCount', 1);
 }
 
-document.getElementById("visitCount").textContent = localStorage.getItem('visitCount');
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
-
+document.getElementById("visitCount").textContent = localStorage.getItem('visitCount');
