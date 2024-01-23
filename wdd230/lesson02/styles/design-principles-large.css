@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card:nth-child(3) {
+        grid-column: span 1;
+    }
+}
