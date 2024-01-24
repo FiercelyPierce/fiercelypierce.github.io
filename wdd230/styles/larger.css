@@ -1,9 +1,9 @@
-@media screen and (min-width: 965px) {
+@media screen and (min-width: 1014px) {
     nav ul {
         flex-direction: row;
     }
 
-    main {
+    div {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

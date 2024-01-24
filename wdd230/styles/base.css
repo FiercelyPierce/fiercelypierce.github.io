@@ -24,9 +24,9 @@ nav {
 nav ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     list-style: none;
-    padding: 20px 0px;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -50,9 +50,16 @@ nav ul li a:hover {
     transition-duration: 0.25s;
 }
 
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
 h2 {
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 h3 {
@@ -68,12 +75,6 @@ img {
     max-width: 120px;
     height: auto;
     padding: 1rem;
-}
-
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 2rem;
 }
 
 .card {
