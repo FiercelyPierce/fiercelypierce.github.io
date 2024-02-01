@@ -18,12 +18,13 @@ header {
 }
 
 #hamburger {
-    display: flex;
+    position: absolute;
+    top: 10rem;
+    right: 1rem;
     font-size: 36px;
-    color: white;
+    color: black;
     padding: 0.5rem;
 	text-decoration: none;
-    justify-content: center;
 }
 
 #hamburger::after {
@@ -32,6 +33,7 @@ header {
 
 #hamburger.show::after {
     content: '×';
+    color: white;
 }
 
 nav {
@@ -73,6 +75,12 @@ nav {
 
 .active {
     color: var(--primary-color);
+}
+
+.map iframe {
+    grid-column: span 2;
+    max-width: 100%;
+    border-radius: 5px;
 }
 
 h1 {

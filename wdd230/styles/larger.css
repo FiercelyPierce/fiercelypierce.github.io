@@ -16,6 +16,10 @@
     .navigation li a {
         padding: 1rem;
     }
+    
+    .map {
+        padding: 0.5rem;
+    }
 
     div {
         display: grid;
