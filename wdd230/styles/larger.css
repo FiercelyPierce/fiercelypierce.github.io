@@ -1,6 +1,20 @@
 @media screen and (min-width: 1014px) {
-    nav ul {
+    .navigation {
+        display: flex;
         flex-direction: row;
+        text-align: center;
+        list-style: none;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .navigation li {
+        padding: 10px;
+        flex: 1 1 auto;
+    }
+
+    .navigation li a {
+        padding: 1rem;
     }
 
     div {
@@ -13,11 +27,11 @@
         margin-left: 10px;
     }
 
-    nav ul li a {
-        padding: 1rem;
-    }
-
     .card {
         margin: 10px;
+    }
+
+    #hamburger {
+        display: none;
     }
 }
