@@ -59,6 +59,11 @@ nav {
     transition-duration: 0.25s;
 }
 
+.navigation li a:active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 .show {
     display: flex;
     flex-direction: column;
@@ -105,7 +110,7 @@ p {
 }
 
 img {
-    max-width: 120px;
+    max-width: 140px;
     height: auto;
     padding: 0.5rem;
 }
