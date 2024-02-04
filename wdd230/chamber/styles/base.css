@@ -4,10 +4,10 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
-    color: black;
     display: flex;
     justify-content: center;
+    background-color: var(--primary-color);
+    color: black;
     padding: 1rem;
 }
 
@@ -20,14 +20,14 @@ nav ul {
     flex-direction: row;
     text-align: center;
     list-style: none;
-    border-top: var(--terciary-color) solid 2px;
-    border-bottom: var(--terciary-color) solid 2px;
+    border-top: var(--bord);
+    border-bottom: var(--bord);
     padding: 1rem;
     margin: 0;
 }
 
 nav ul li {
-    padding: 10px;
+    padding: 0.5rem;
     flex: 1 1 auto;
     margin: 0;
     background-color: var(--secondary-color);
@@ -47,22 +47,11 @@ nav ul li a:hover {
 }
 
 div {
-    max-width: 1024px;
     margin: 0 auto;
 }
 
-div ul {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 1rem;
-}
-
-div ul li {
-    border: var(--terciary-color) solid 2px;
-}
-
 h1 {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     padding: 2rem;
 }
@@ -91,10 +80,18 @@ img {
     padding: 1rem;
 }
 
+.card {
+    background-color: var(--primary-color);
+    border-top: var(--bord);
+    border-bottom: var(--bord);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
 footer {
-    border-top: var(--terciary-color) solid 2px;
+    border-top: var(--bord);
     background-color: var(--secondary-color);
     color: white;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
