@@ -11,22 +11,17 @@
     }
 
     .card {
-        display: grid;
         grid-template-columns: 2fr 1fr;
         padding: 3rem;
     }
 
     .card:nth-child(even) {
         grid-template-columns: 1fr 2fr;
+    }
 
-        section {
-            grid-column: 2/3;
-        }
-
-        img {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
+    .card:nth-child(even) img {
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
     
     .card section {
@@ -44,7 +39,7 @@
         display: none;
     }
 
-    .card button {
+    .call-to-action {
         grid-column: 2/3;
     }
 }

@@ -24,7 +24,7 @@ header img {
 
 #hamburger {
     position: absolute;
-    top: 7rem;
+    top: 10rem;
     right: 1rem;
     font-size: 36px;
     color: black;
@@ -39,6 +39,20 @@ header img {
 
 #hamburger.show::after {
     content: '×';
+}
+
+#dark-switch {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 1rem;
+    right: 1rem;
+    font-size: 36px;
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    border: none;
 }
 
 nav {
@@ -126,6 +140,8 @@ img {
 }
 
 .card {
+    display: grid;
+    grid-template-rows: auto;
     background-color: var(--primary-color);
     border-top: var(--bord);
     border-bottom: var(--bord);
@@ -139,29 +155,22 @@ img {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-button {
+.call-to-action {
+    color: white;
     background-color: var(--secondary-color);
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    width: 100%;
     border-radius: 10px;
     border: var(--bord);
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
     cursor: pointer;
-    justify-self: right;
+    text-align: center;
+    text-decoration: none;
 }
 
-button:hover {
+.call-to-action:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--terciary-color);
     transition-duration: 0.25s;
-}
-
-button a {
-    text-decoration: none;
-    color: white;
-}
-
-button a:hover {
     color: black;
 }
 
