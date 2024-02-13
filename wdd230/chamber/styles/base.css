@@ -142,8 +142,8 @@ img {
 button {
     background-color: var(--secondary-color);
     padding: 0.5rem;
-    margin: 0.5rem;
-    max-width: 500px;
+    margin: 0.5rem 0;
+    width: 100%;
     border-radius: 10px;
     border: var(--bord);
     cursor: pointer;
