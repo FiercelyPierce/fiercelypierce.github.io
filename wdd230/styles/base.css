@@ -17,6 +17,12 @@ header {
     padding: 1rem;
 }
 
+header img {
+    max-width: 140px;
+    height: auto;
+    padding: 0.5rem;
+}
+
 #hamburger {
     position: absolute;
     top: 10rem;
@@ -82,6 +88,32 @@ nav {
     color: var(--primary-color);
 }
 
+.hero {
+    display: block;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.herolabel {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.herolabel p {
+    font-size: 1.2rem;
+    font-family: "Protest Riot", sans-serif;
+}
+
 .map iframe {
     grid-column: span 2;
     max-width: 100%;
@@ -109,17 +141,11 @@ p {
     margin-bottom: 10px;
 }
 
-img {
-    max-width: 140px;
-    height: auto;
-    padding: 0.5rem;
-}
-
 .card {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card ul li a {
@@ -135,6 +161,6 @@ img {
 footer {
     background-color: var(--primary-color);
     color: white;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
