@@ -211,9 +211,31 @@ img {
 }
 
 .event {
+    padding: 1rem;
+    margin: 1rem 0;
     background-color: var(--terciary-color);
     border-top: 2px solid var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
+}
+
+.weather {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-image: url('../images/clouds.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+#windchill {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-image: url('../images/snow.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .call-to-action {

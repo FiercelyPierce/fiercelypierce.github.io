@@ -70,20 +70,22 @@
                 </section>
                 <img src="images/Placeholder_view_vector.svg.webp" alt="Image here">
             </div>
-            <div class="event">
-                <section>
-                    <h2>Upcoming Events</h2>
-                    <ul>
-                        <li>Event 1</li>
-                        <li>Event 2</li>
-                        <li>Event 3</li>
-                        <li>Event 4</li>
-                    </ul>
-                </section>
-                <section class="weather">
-                    <h2>Weather</h2>                    
-                </section>
-            </div>
+            <section class="event">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Event 1</li>
+                    <li>Event 2</li>
+                    <li>Event 3</li>
+                    <li>Event 4</li>
+                </ul>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <input id="currentTemp" type="text" placeholder="Enter current temperature">
+                <input id="currentWindspeed" type="text" placeholder="Enter current windspeed">
+                <button id="submitTemp">Submit</button>
+                <p><span id="windchill"></span></p>
+            </section>
             <section class="card">
                 <h2>Spotlights</h2>
                 <div>
@@ -110,5 +112,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

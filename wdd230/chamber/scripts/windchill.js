@@ -1,3 +1,16 @@
+const currentTemp = document.getElementById('#currentTemp');
+const currentWindspeed = document.getElementById('#currentWindspeed');
+const windChill = document.getElementById('#windChill');
+const submitButton = document.getElementById('#submitTemp');
+
+// If the submit button is clicked, calculate the wind chill
+submitButton.addEventListener('click', () => {
+  const temperature = currentTemp.value;
+  const windSpeed = currentWindspeed.value;
+  const windChillValue = calculateWindChill(temperature, windSpeed);
+  windChill.innerHTML = windChillValue;
+});
+
 // Calculate wind chill
 function calculateWindChill(temperature, windSpeed) {
   if (temperature <= 50 && windSpeed > 3) {
@@ -7,10 +20,3 @@ function calculateWindChill(temperature, windSpeed) {
     return "N/A";
   }
 }
-
-// Example usage
-const temperature = 40; // Current temperature in Fahrenheit
-const windSpeed = 10; // Current wind speed in miles per hour
-
-const windChill = calculateWindChill(temperature, windSpeed);
-console.log(`The wind chill is ${windChill} degrees Fahrenheit.`);
