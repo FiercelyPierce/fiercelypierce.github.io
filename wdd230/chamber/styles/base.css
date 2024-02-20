@@ -11,10 +11,16 @@ header {
     padding: 0 3rem;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero img {
-    max-width: 620px;
+    max-width: auto;
     height: auto;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 #hamburger {
@@ -96,6 +102,14 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
+.title {
+    margin: 1rem;
+}
+
+.title p {
+    font-size: 0.8rem;
+}
+
 nav {
     background-color: var(--secondary-color);
 }
@@ -151,7 +165,7 @@ div {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 1rem 1rem 0 1rem;
 }
