@@ -11,10 +11,10 @@ header {
     padding: 0 3rem;
 }
 
-header img {
+.hero img {
     max-width: 620px;
-    max-height: 140px;
-    padding: 1rem;
+    height: auto;
+    padding: 0 1rem;
 }
 
 #hamburger {
@@ -151,7 +151,7 @@ div {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     padding: 1rem 1rem 0 1rem;
 }
