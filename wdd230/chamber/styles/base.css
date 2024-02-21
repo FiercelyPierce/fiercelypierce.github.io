@@ -234,7 +234,7 @@ img {
     background-image: url('../images/snow.webp');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 

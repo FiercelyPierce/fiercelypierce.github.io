@@ -1,7 +1,7 @@
-const currentTemp = document.getElementById('#currentTemp');
-const currentWindspeed = document.getElementById('#currentWindspeed');
-const windChill = document.getElementById('#windChill');
-const submitButton = document.getElementById('#submitTemp');
+const currentTemp = document.querySelector('#currentTemp');
+const currentWindspeed = document.querySelector('#currentWindspeed');
+const windChill = document.querySelector('#windChill');
+const submitButton = document.querySelector('#submitTemp');
 
 // If the submit button is clicked, calculate the wind chill
 submitButton.addEventListener('click', () => {
