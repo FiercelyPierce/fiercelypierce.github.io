@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>Lazy Load Demonstration</title>
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+
+    <main>
+        <img width="400" height="600" src="https://loremflickr.com/400/600/dog" alt="Lazy loading dog" loading="lazy">
+        <img width="400" height="600" src="https://loremflickr.com/400/600/bear" alt="Lazy loading bear" loading="lazy">
+        <img width="400" height="600" src="https://loremflickr.com/400/600/cat" alt="Lazy loading cat" loading="lazy">
+        <img width="400" height="600" src="https://loremflickr.com/400/600/goat" alt="Lazy loading goat" loading="lazy">
+        <img width="400" height="600" src="https://loremflickr.com/400/600/bird" alt="Lazy loading bird" loading="lazy">
+        <img width="400" height="600" src="https://loremflickr.com/400/600/landscape" alt="Lazy loading landscape" loading="lazy">
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Pierce Cirks</p>
+        <p>United States, Arizona</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>
