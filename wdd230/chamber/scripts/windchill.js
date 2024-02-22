@@ -1,6 +1,6 @@
 const currentTemp = document.querySelector('#currentTemp');
 const currentWindspeed = document.querySelector('#currentWindspeed');
-const windChill = document.querySelector('#windChill');
+const windChill = document.querySelector('#windchill');
 const submitButton = document.querySelector('#submitTemp');
 
 // If the submit button is clicked, calculate the wind chill
