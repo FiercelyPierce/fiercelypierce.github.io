@@ -17,6 +17,10 @@
         padding: 1rem;
     }
 
+    .profile {
+        max-width: 200px;
+    }
+
     .hero {
         margin: 0.5rem;
     }
