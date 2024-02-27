@@ -28,6 +28,11 @@
         grid-template-columns: 1fr 4fr;
     }
 
+    .discover section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .card {
         grid-template-columns: 2fr 1fr;
         padding: 3rem;
