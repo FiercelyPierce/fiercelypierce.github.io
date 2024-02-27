@@ -3,6 +3,15 @@
         font-size: 1.8rem;
     }
 
+    #hamburger {
+        display: none;
+    }
+
+    aside {
+        border-top: none;
+    }
+
+    /* Class selectors */
     .navigation {
         display: flex;
         flex-direction: row;
@@ -14,24 +23,9 @@
         margin: 0;
     }
 
-    aside {
-        width: 200px; /* Set the width of the sidebar */
-        height: 100vh; /* Make it full height */
-        position: fixed; /* Make it stick to the position */
-        left: 0; /* Align it to the left */
-        top: 0; /* Align it to the top */
-        background-color: var(--secondary-color); /* Set a background color */
-        padding: 20px; /* Add some padding */
-        overflow: auto; /* Enable scrolling if the content is too tall */
-        color: white; /* Set the text color */
-    }
-
-    aside h3 {
-        color: black; /* Set the color of the heading */
-    }
-
-    aside p {
-        color: black; /* Set the color of the paragraph text */
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
     }
 
     .card {
@@ -76,10 +70,6 @@
     .event section h2 {
         font-size: 30px;
         font-weight: bold;
-    }
-
-    #hamburger {
-        display: none;
     }
 
     .call-to-action {

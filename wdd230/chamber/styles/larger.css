@@ -2,4 +2,9 @@
     h1 {
         font-size: 2.2rem;
     }
+
+    .preview-event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

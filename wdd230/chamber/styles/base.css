@@ -11,6 +11,38 @@ header {
     padding: 0 3rem;
 }
 
+aside {
+    border-top: solid var(--terciary-color);
+    background-color: var(--secondary-color); 
+    color: white;
+    padding: 1rem 0;
+}
+
+aside h2 {
+    padding: 1rem;
+}
+
+aside h3 {
+    color: black;
+}
+
+aside p {
+    color: black;
+}
+
+.preview-event {
+    background-color: var(--terciary-color);
+    border-top: solid var(--primary-color);
+    border-bottom: solid var(--primary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.discover section {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -25,7 +57,7 @@ header {
 
 #hamburger {
     position: absolute;
-    top: 10rem;
+    top: 9rem;
     right: 1rem;
     font-size: 36px;
     color: black;
