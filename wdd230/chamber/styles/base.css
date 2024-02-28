@@ -30,6 +30,10 @@ aside p {
     color: black;
 }
 
+#sidebarVisit {
+    padding: 1rem;
+}
+
 .preview-event {
     background-color: var(--terciary-color);
     border-top: solid var(--primary-color);
@@ -41,6 +45,11 @@ aside p {
 .discover section {
     background-color: var(--primary-color);
     padding: 1rem;
+}
+
+.discover-content img {
+    padding: 0;
+    border-radius: 5px;
 }
 
 .hero {

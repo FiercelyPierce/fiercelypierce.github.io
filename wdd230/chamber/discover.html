@@ -29,7 +29,7 @@
                 <img src="images/wdd230-org-large-slim.webp" alt="Hero image" width="6429" height="3215">
             </picture>
         </div>
-        <a id="hamburger" href="#"></a>
+        <a id="hamburger"></a>
         <label id="dark-switch">
           <input type="checkbox">
           <span class="slider"></span>
@@ -49,6 +49,9 @@
     <main class="discover">
         <aside>
             <h2>Upcoming Events</h2>
+            <div>
+                <span id="sidebarVisit"></span>
+            </div>
             <div class="preview-event">
                 <h3>Event 1</h3>
                 <p>January 1, 2022</p>
@@ -70,32 +73,32 @@
         </aside>
 
         <section>
-            <h2>Discover AI</h2>
+            <h2>Discover how AI can improve your systems</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
-            <picture>
-                <source>
-                <img src="images/Placeholder_view_vector.svg.webp" alt="" width="" height="" loading="lazy">
-            </picture>
+            <section class="discover-content">
+                <h3>Progress science</h3>
+                <img src="https://loremflickr.com/600/400/science" alt="" width="600" height="400" loading="lazy">
+            </section>
+            <section class="discover-content">
+                <h3>Create something new</h3>
+                <img src="https://loremflickr.com/600/400/ai" alt="" width="600" height="400" loading="lazy">
+            </section>
+            <section class="discover-content">
+                <h3>Enhance technology</h3>
+                <img src="https://loremflickr.com/600/400/computer" alt="" width="600" height="400" loading="lazy">
+            </section>
+            <section class="discover-content">
+                <h3>Learn new concepts</h3>
+                <img src="https://loremflickr.com/600/400/math" alt="" width="600" height="400" loading="lazy">
+            </section>
+            <section class="discover-content">
+                <h3>Help educate</h3>
+                <img src="https://loremflickr.com/600/400/school" alt="" width="600" height="400" loading="lazy">
+            </section>
+            <section class="discover-content">
+                <h3>Further our knowledge of medicine</h3>
+                <img src="https://loremflickr.com/600/400/medical" alt="" width="600" height="400" loading="lazy">
+            </section>
         </section>
     </main>
 
@@ -104,9 +107,7 @@
         <p>United States, Arizona</p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>
