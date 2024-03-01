@@ -1,0 +1,54 @@
+body {
+    font-family: "Madimi One", sans-serif;
+}
+
+table {
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	font-size: .85rem;
+}
+
+tr th {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+tr:first-child th {
+    padding: 1rem;
+	background-color: black;
+    color: white;
+    
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid rgba(20, 20, 20, 0.1);
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: lightgray;
+}
+
+.table-head {
+    background-color: rgba(20,20, 20, 0.8);
+    color: white;
+}
+
+.feature {
+    font-weight: 800;
+}
