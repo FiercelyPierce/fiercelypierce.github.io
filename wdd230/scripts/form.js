@@ -6,6 +6,9 @@ const range = document.getElementById("r");
 
 c.addEventListener("focusout", checkSame);
 
+range.addEventListener('change', displayRatingValue);
+range.addEventListener('input', displayRatingValue);
+
 document.addEventListener("DOMContentLoaded", function () 
 {
 	function handleSubmit(event) {
@@ -13,14 +16,12 @@ document.addEventListener("DOMContentLoaded", function ()
 
 		let formt = event.target;
 		let formData = new FormData(formt);
+		window.location.href = '/wdd230/record.html';
 	}
 
 	const form = document.querySelector("form");
 	form.addEventListener("submit", handleSubmit);
 });
-
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
 
 function checkSame() 
 {
