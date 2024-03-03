@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <p id="formmessage"></p>
+        <form action="record.html" method="get">
+            <fieldset>
+                <legend>Login Form</legend>
+                <label>Username
+                    <input type="text" id="username" name="uname" required>
+                </label>
+                <label>Password
+                    <input type="password" id="password" name="password" 
+                    pattern="[1-9a-zA-Z -]{6,}{8,}" required>
+                </label>
+                <label>Password Confirmation
+                    <input type="password" id="confirmation" name="confirmation" 
+                    pattern="[1-9a-zA-Z -]{6,}" required>
+                </label>
+                <label>Email
+                    <input type="email" id="email" name="email" pattern="[a-zA-Z0-9_.\-]+@byui.edu" placeholder="Your byui.edu email address" title="A valid byui.edu email address." required>
+                </label>
+                <label>Page Rating
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+            </fieldset>
+            <input type="submit" value="Login">
+        </form>
+    </main>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
