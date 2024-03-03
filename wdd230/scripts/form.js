@@ -1,8 +1,26 @@
 const p = document.querySelector("#password");
 const c = document.querySelector("#confirmation");
 const message = document.querySelector("#formmessage");
+const rangevalue = document.getElementById("rangevalue");
+const range = document.getElementById("r");
 
 c.addEventListener("focusout", checkSame);
+
+document.addEventListener("DOMContentLoaded", function () 
+{
+	function handleSubmit(event) {
+		event.preventDefault();
+
+		let formt = event.target;
+		let formData = new FormData(formt);
+	}
+
+	const form = document.querySelector("form");
+	form.addEventListener("submit", handleSubmit);
+});
+
+range.addEventListener('change', displayRatingValue);
+range.addEventListener('input', displayRatingValue);
 
 function checkSame() 
 {
@@ -20,19 +38,6 @@ function checkSame()
 	}
 }
 
-document.addEventListener("DOMContentLoaded", function () 
-{
-	function handleSubmit(event) {
-		event.preventDefault();
-
-		let formt = event.target;
-		let formData = new FormData(formt);
-
-		for (let pair of formData.entries()) {
-			console.log(pair[0] + ": " + pair[1]);
-		}
-	}
-
-	const form = document.querySelector("form");
-	form.addEventListener("submit", handleSubmit);
-});
+function displayRatingValue() {
+    rangevalue.innerHTML = range.value;
+}
