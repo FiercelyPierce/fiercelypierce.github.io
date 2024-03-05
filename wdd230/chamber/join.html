@@ -31,7 +31,7 @@
     </nav>
     
     <main>
-        <div class="card">
+        <div class="card member-form">
             <form action="thankyou.html" method="get">
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -42,7 +42,7 @@
                         <input type="text" name="lname" id="lname" required>
                     </label>
                     <label>Title
-                        <input type="text" name="title" id="title" required>
+                        <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" required>
                     </label>
                     <label>Email
                         <input type="email" name="email" id="email" placeholder="someone@email.com" required>

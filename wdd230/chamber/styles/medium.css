@@ -3,12 +3,17 @@
         font-size: 1.8rem;
     }
 
-    #hamburger {
-        display: none;
-    }
-
     aside {
         border-top: none;
+    }
+
+    form {
+        margin: auto;
+        max-width: 480px;
+    }
+
+    #hamburger {
+        display: none;
     }
 
     /* Class selectors */

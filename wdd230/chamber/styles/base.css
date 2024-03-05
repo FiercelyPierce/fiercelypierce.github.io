@@ -11,6 +11,10 @@ header {
     padding: 0 3rem;
 }
 
+nav {
+    background-color: var(--secondary-color);
+}
+
 aside {
     border-top: solid var(--terciary-color);
     background-color: var(--secondary-color); 
@@ -71,7 +75,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-image: linear-gradient(var(--quaternary-color), var(--secondary-color));
+    background-color: var(--secondary-color);
     color: white;
     padding: 0.8rem;
     margin: -1rem 2% 2rem 2%;
@@ -79,16 +83,10 @@ form input[type="submit"] {
     border: none;
     border-radius: 6px;
     box-shadow: 1px 1px 4px black;
-    transition-duration: 0.5s;
 }
 
 form input[type="submit"]:hover {
     box-shadow: 2px 2px 4px black;
-    transition-duration: 0.5s;
-}
-
-form input[type="submit"]:active {
-    background-image: linear-gradient(var(--secondary-color), var(--quaternary-color));
 }
 
 form input:required {
@@ -218,10 +216,6 @@ input:checked + .slider:before {
 
 .title p {
     font-size: 0.8rem;
-}
-
-nav {
-    background-color: var(--secondary-color);
 }
 
 .navigation {
@@ -366,6 +360,10 @@ img {
     background-color: var(--terciary-color);
     transition-duration: 0.25s;
     color: black;
+}
+
+.member-form {
+    display: block;
 }
 
 footer {
