@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Pierce Cirks">
     <meta name="description" content="WDD 230 - Web Frontend Development">
     <meta property="og:title" content="Mesa Chamber of Commerce">
@@ -13,7 +13,7 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link rel="icon" href="images/favicon_AI.ico" type="image/AI-icon">
-    <title>Member Sign-Up</title>
+    <title>Join Membership</title>
 </head>
 <body>
 	<header>
@@ -105,7 +105,6 @@
                     </label>
                     <label>
                         <input type="hidden" name="date" id="currentDate">
-                        <input type="hidden" name="time" id="sidebarVisit">
                     </label>
                 </fieldset>
                 <input type="submit" value="Become a Member!">
@@ -114,6 +113,9 @@
     </main>
 
     <footer>
+        <div>
+            <span id="sidebarVisit"></span>
+        </div>
         <p>&copy; <span id="currentYear"></span> Pierce Cirks</p>
         <p>United States, Arizona</p>
         <p>Last Modification: <span id="lastModified"></span></p>
