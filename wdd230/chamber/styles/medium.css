@@ -106,4 +106,8 @@
     .call-to-action {
         grid-column: 2/3;
     }
+
+    .no-grid {
+        display: block !important;
+    }
 }

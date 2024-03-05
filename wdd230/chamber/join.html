@@ -23,15 +23,51 @@
     
     <nav>
         <ul class="navigation">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Propose</a></li>
             <li><a href="#">Winners</a></li>
             <li><a href="#">Contact</a></li>    
         </ul>
     </nav>
     
-    <main>
-        <div class="card member-form">
+    <main class="discover">
+        <aside>
+            <h2>Gold Membership</h2>
+            <div class="preview-event no-grid">
+                <h3>Enjoy exclusive benefits and premium features:</h3>
+                <p>Access to all events and networking opportunities</p>
+                <p>Priority listing in the member directory</p>
+                <p>Featured promotion on the chamber's website</p>
+                <p>Discounted rates for advertising and sponsorships</p>
+            </div>
+
+            <h2>Silver Membership</h2>
+            <div class="preview-event no-grid">
+                <h3>Take advantage of these valuable benefits:</h3>
+                <p>Access to all events and networking opportunities</p>
+                <p>Priority listing in the member directory</p>
+                <p>Featured promotion on the chamber's website</p>
+                <p>Discounted rates for advertising and sponsorships</p>
+            </div>
+
+            <h2>Bronze Membership</h2>
+            <div class="preview-event no-grid">
+                <h3>Enjoy these essential benefits:</h3>
+                <p>Access to chamber events</p>
+                <p>Listing in the member directory</p>
+                <p>Opportunity to participate in chamber committees</p>
+            </div>
+
+            <h2>Non-Profit (NP) Membership</h2>
+            <div class="preview-event no-grid">
+                <h3>Specifically designed for non-profit organizations:</h3>
+                <p>Access to selected events and networking opportunities</p>
+                <p>Listing in the non-profit member directory</p>
+                <p>Opportunity to promote non-profit events and initiatives</p>
+            </div>
+        </aside>
+
+        <section class="no-grid">
             <form action="thankyou.html" method="get">
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -68,16 +104,19 @@
                         <textarea name="description" id="description" required></textarea>
                     </label>
                     <label>
-                        <input type="hidden" name="date" id="date">
+                        <input type="hidden" name="date" id="currentDate">
                     </label>
                 </fieldset>
                 <input type="submit" value="Become a Member!">
             </form>
-        </div>
+        </section>
     </main>
-    
+
     <footer>
-        &copy; 2024 &bull; Paul Cheney &bull; 123-555-6789
+        <p>&copy; <span id="currentYear"></span> Pierce Cirks</p>
+        <p>United States, Arizona</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>

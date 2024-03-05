@@ -364,6 +364,7 @@ img {
 
 .member-form {
     display: block;
+    background-color: var(--primary-color) !important; 
 }
 
 footer {
