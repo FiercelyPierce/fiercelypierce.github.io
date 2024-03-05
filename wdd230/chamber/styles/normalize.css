@@ -18,6 +18,7 @@
     --primary-color: #E7E7E7; /* White */
     --secondary-color: #485696; /* Blue */
     --terciary-color: #F9C784; /* Gold */
+    --quaternary-color: #5e5e5e; /* Dark Grey */
     --bord: 2px solid var(--terciary-color);
   }
   

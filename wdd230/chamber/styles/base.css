@@ -30,38 +30,83 @@ aside p {
     color: black;
 }
 
+form {
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 0.2rem 2rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: solid 1px var(--light-color);
+    border-radius: 6px;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: var(--tertiary-color);
+    padding: 0 0.5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: 0.9rem;
+}
+
+form div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: 0.9rem;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form select {
+    background-color: var(--primary-color);
+    display: block;
+    border: solid 1px var(--light-color);
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: var(--dark-color);
+    width: 100%;
+    max-width: 200px;
+    appearance: none;
+}
+
+form input[type="submit"] {
+    background-image: linear-gradient(var(--quaternary-color), var(--secondary-color));
+    color: white;
+    padding: 0.8rem;
+    margin: -1rem 2% 2rem 2%;
+    width: 96%;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px black;
+    transition-duration: 0.5s;
+}
+
+form input[type="submit"]:hover {
+    box-shadow: 2px 2px 4px black;
+    transition-duration: 0.5s;
+}
+
+form input[type="submit"]:active {
+    background-image: linear-gradient(var(--secondary-color), var(--quaternary-color));
+}
+
+form input:required {
+    border-left: solid 8px var(--terciary-color);
+}
+
+form input:required:valid {
+    border-left: solid 8px var(--success-color);
+}
+
 #sidebarVisit {
     padding: 1rem;
-}
-
-.preview-event {
-    background-color: var(--terciary-color);
-    border-top: solid var(--primary-color);
-    border-bottom: solid var(--primary-color);
-    padding: 1rem;
-    margin: 1rem 0;
-}
-
-.discover section {
-    background-color: var(--primary-color);
-    padding: 1rem;
-}
-
-.discover-content img {
-    padding: 0;
-    border-radius: 5px;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
-    padding: 0;
 }
 
 #hamburger {
@@ -101,6 +146,36 @@ aside p {
   opacity: 0;
   width: 0;
   height: 0;
+}
+
+.preview-event {
+    background-color: var(--terciary-color);
+    border-top: solid var(--primary-color);
+    border-bottom: solid var(--primary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.discover section {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.discover-content img {
+    padding: 0;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
 }
 
 .slider {
