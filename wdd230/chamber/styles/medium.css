@@ -110,4 +110,8 @@
     .no-grid {
         display: block !important;
     }
+    
+    .no-grid h2 {
+        text-align: center;
+    }
 }

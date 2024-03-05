@@ -23,10 +23,12 @@ aside {
 }
 
 aside h2 {
+    font-size: larger;
     padding: 1rem;
 }
 
 aside h3 {
+    font-size: large;
     color: black;
 }
 
