@@ -14,7 +14,7 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link rel="icon" href="images/favicon_AI.ico" type="image/AI-icon">
-    <title>HTML5 Start Site by Paul Cheney</title>
+    <title>Member Sign-Up</title>
 </head>
 <body>
 	<header>
@@ -31,47 +31,49 @@
     </nav>
     
     <main>
-        <form action="thankyou.html" method="get">
-            <fieldset>
-                <legend>Personal Information</legend>
-                <label>First Name
-                    <input type="text" name="fname" id="fname" required>
-                </label>
-                <label>Last Name
-                    <input type="text" name="lname" id="lname" required>
-                </label>
-                <label>Title
-                    <input type="text" name="title" id="title" required>
-                </label>
-                <label>Email
-                    <input type="email" name="email" id="email" placeholder="someone@email.com" required>
-                </label>
-                <label>Phone Number
-                    <input type="tel" name="phone" id="phone" required>
-                </label>
-                <label>Organization
-                    <input type="text" name="organization" id="organization" required>
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Information</legend>
-                <label>Membership Level
-                    <select name="level">
-                        <option value="4">NP</option>
-                        <option value="3">Bronze</option>
-                        <option value="2">Silver</option>
-                        <option value="1">Gold</option>
-                    </select>
-                </label>
-                <label>Description
-                    <textarea name="description" id="description" required></textarea>
-                </label>
-                <label>
-                    <input type="hidden" name="date" id="date">
-                </label>
+        <div class="card">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name
+                        <input type="text" name="fname" id="fname" required>
+                    </label>
+                    <label>Last Name
+                        <input type="text" name="lname" id="lname" required>
+                    </label>
+                    <label>Title
+                        <input type="text" name="title" id="title" required>
+                    </label>
+                    <label>Email
+                        <input type="email" name="email" id="email" placeholder="someone@email.com" required>
+                    </label>
+                    <label>Phone Number
+                        <input type="tel" name="phone" id="phone" required>
+                    </label>
+                    <label>Organization
+                        <input type="text" name="organization" id="organization" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Information</legend>
+                    <label>Membership Level
+                        <select name="level">
+                            <option value="4">NP</option>
+                            <option value="3">Bronze</option>
+                            <option value="2">Silver</option>
+                            <option value="1">Gold</option>
+                        </select>
+                    </label>
+                    <label>Description
+                        <textarea name="description" id="description" required></textarea>
+                    </label>
+                    <label>
+                        <input type="hidden" name="date" id="date">
+                    </label>
+                </fieldset>
                 <input type="submit" value="Become a Member!">
-            </fieldset>
-        </form>
+            </form>
+        </div>
     </main>
     
     <footer>
