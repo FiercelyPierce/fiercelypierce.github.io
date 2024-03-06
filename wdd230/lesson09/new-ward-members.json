@@ -1,0 +1,30 @@
+{
+  "wardInformation": {
+    "familyName": "Walker",
+    "moveInDate": "2022-01-01",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "James Walker",
+        "gender": "Male",
+        "birthdate": "1990-05-15"
+      },
+      {
+        "name": "Rose Walker",
+        "gender": "Female",
+        "birthdate": "1992-08-20"
+      },
+      {
+        "name": "Tom Walker",
+        "gender": "Male",
+        "birthdate": "2010-03-10"
+      },
+      {
+        "name": "Emily Walker",
+        "gender": "Female",
+        "birthdate": "2015-11-25"
+      }
+    ]
+  }
+}
