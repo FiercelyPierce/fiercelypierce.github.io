@@ -69,7 +69,7 @@
       "lesson": "07",
       "links": [
         {
-          "url": "lesson07/lesson07/lazyload.html",
+          "url": "lesson07/lazyload.html",
           "title": "Lazy Load"
         },
         {
@@ -98,6 +98,10 @@
     {
       "lesson": "09",
       "links": [
+        {
+          "url": "lesson09/new-ward-members.json",
+          "title": "Ward Members JSON"
+        },
         {
           "url": "lesson09/prophets.html",
           "title": "Prophets"

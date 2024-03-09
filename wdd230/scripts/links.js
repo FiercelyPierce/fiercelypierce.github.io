@@ -2,22 +2,35 @@ const baseURL = "https://fiercelypierce.github.io/wdd230/";
 const linksURL = "data/links.json";
 
 async function getLinks() {
-  const response = await fetch(baseURL + linksURL);
+  const response = await fetch(linksURL);
   const data = await response.json();
   displayLinks(data);
 }
 
 function displayLinks(weeks) {
-  weeks.forEach(week => {
-    let header = document.createElement("h4");
-    let list = document.createElement("ul");
-    let item = document.createElement("li");
-    let anchor = document.createElement("a");
-    header.textContent = week.lesson;
-    anchor.setAttribute("href", week.links.url);
-    anchor.textContent = week.links.title;
-    item.appendChild(anchor);
-    list.appendChild(item);
+  const links = weeks.lessons;
+  // Get the container element where links will be displayed
+  const container = document.getElementById("linksContainer");
+  console.log(links);
+  // Loop through each week
+  links.forEach((weekObj) => {
+    console.log(weekObj);
+      const weekHeading = document.createElement("h4");
+      weekHeading.textContent = "Lesson " + weekObj.lesson;
+
+      const linkList = document.createElement("ul");
+      linkList.classList.add("lessonlinks");
+
+      weekObj.links.forEach((link) => {
+          const listItem = document.createElement("li");
+          const linkElement = document.createElement("a");
+          linkElement.href = link.url;
+          linkElement.textContent = link.title;
+          listItem.appendChild(linkElement);
+          linkList.appendChild(listItem);
+      });
+      container.appendChild(weekHeading);
+      container.appendChild(linkList);
   });
 }
 
