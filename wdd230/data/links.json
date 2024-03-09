@@ -1,0 +1,108 @@
+{
+  "lessons": [
+    {
+      "lesson": "02",
+      "links": [
+        {
+          "url": "lesson02/design.html",
+          "title": "Design Principles"
+        },
+        {
+          "url": "lesson02/media-query.html",
+          "title": "Media Queries"
+        },
+        {
+          "url": "lesson02/design-principles.html",
+          "title": "Design Principles Document"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": [
+        {
+          "url": "lesson03/images/css_combinators.png",
+          "title": "CSS Combinators"
+        },
+        {
+          "url": "lesson03/images/pseudo-element.png",
+          "title": "Pseudo-Elements"
+        },
+        {
+          "url": "https://codepen.io/FiercePierce/pen/NWJYrmJ",
+          "title": "Wayfinding"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/FiercePierce/pen/eYXrvMd",
+          "title": "Pseudo-Classes"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": [
+        {
+          "url": "lesson05/bom.html",
+          "title": "Book of Mormon"
+        }
+      ]
+    },
+    {
+      "lesson": "06",
+      "links": [
+        {
+          "url": "lesson06/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "lesson06/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "lesson": "07",
+      "links": [
+        {
+          "url": "lesson07/lesson07/lazyload.html",
+          "title": "Lazy Load"
+        },
+        {
+          "url": "lesson07/bom.html",
+          "title": "BOM Local Storage"
+        }
+      ]
+    },
+    {
+      "lesson": "08",
+      "links": [
+        {
+          "url": "lesson08/tablebuild.html",
+          "title": "HTML Table"
+        },
+        {
+          "url": "lesson08/index.html",
+          "title": "HTML Form"
+        },
+        {
+          "url": "form.html",
+          "title": "Login Form"
+        }
+      ]
+    },
+    {
+      "lesson": "09",
+      "links": [
+        {
+          "url": "lesson09/prophets.html",
+          "title": "Prophets"
+        }
+      ]
+    }
+  ]
+}
