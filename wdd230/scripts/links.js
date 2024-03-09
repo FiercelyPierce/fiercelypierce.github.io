@@ -8,8 +8,7 @@ async function getLinks() {
 }
 
 function displayLinks(weeks) {
-  const lessons = weeks.lessons;
-  lessons.forEach(week => {
+  weeks.forEach(week => {
     let header = document.createElement("h4");
     let list = document.createElement("ul");
     let item = document.createElement("li");
