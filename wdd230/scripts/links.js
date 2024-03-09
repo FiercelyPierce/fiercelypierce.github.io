@@ -1,4 +1,3 @@
-const baseURL = "https://fiercelypierce.github.io/wdd230/";
 const linksURL = "data/links.json";
 
 async function getLinks() {
