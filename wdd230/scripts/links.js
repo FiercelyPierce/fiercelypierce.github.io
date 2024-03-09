@@ -9,10 +9,12 @@ async function getLinks() {
 
 function displayLinks(weeks) {
   const lessons = weeks.lessons;
-  const list = document.querySelector(".lessonlink");
   lessons.forEach(week => {
+    let header = document.createElement("h4");
+    let list = document.createElement("ul");
     let item = document.createElement("li");
     let anchor = document.createElement("a");
+    header.textContent = week.lesson;
     anchor.setAttribute("href", week.links.url);
     anchor.textContent = week.links.title;
     item.appendChild(anchor);
