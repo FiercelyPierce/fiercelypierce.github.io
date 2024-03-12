@@ -10,10 +10,8 @@ function displayLinks(weeks) {
   const links = weeks.lessons;
   // Get the container element where links will be displayed
   const container = document.getElementById("linksContainer");
-  console.log(links);
   // Loop through each week
   links.forEach((weekObj) => {
-    console.log(weekObj);
       const weekHeading = document.createElement("h4");
       weekHeading.textContent = "Lesson " + weekObj.lesson;
 
