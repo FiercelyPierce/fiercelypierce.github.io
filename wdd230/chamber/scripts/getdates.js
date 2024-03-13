@@ -20,4 +20,6 @@ if (typeof localStorage !== 'undefined') {
 
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
-document.getElementById("currentDate").textContent = Date.now();
+if (document.getElementById("currentDate")) {
+  document.getElementById("currentDate").textContent = Date.now();
+}

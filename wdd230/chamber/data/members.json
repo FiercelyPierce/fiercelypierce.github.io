@@ -5,7 +5,7 @@
       "address": "301 W. Deer Valley Rd. Suite 3",
       "phone": "623-879-8700",
       "website": "https://bulwarkpestcontrol.com/",
-      "image": "bulwark.jpg",
+      "image": "bulwark.webp",
       "membership": "Silver"
     },
     {
@@ -13,7 +13,7 @@
       "address": "1600 Lind Ave SW, Suite 400",
       "phone": "425-226-6500",
       "website": "https://company.wizards.com/en",
-      "image": "wizards.jpg",
+      "image": "wizards.webp",
       "membership": "Gold"
     },
     {
@@ -21,7 +21,7 @@
       "address": "950 W. Elliot Rd. Suite 101",
       "phone": "480-539-1300",
       "website": "https://www.pioneertitleagency.com/",
-      "image": "pioneer.jpg",
+      "image": "pioneer.webp",
       "membership": "Bronze"
     },
     {
@@ -29,7 +29,7 @@
       "address": "PO Box 870112",
       "phone": "480-965-2100",
       "website": "https://www.asu.edu/",
-      "image": "asu.jpg",
+      "image": "asu.webp",
       "membership": "Gold"
     },
     {
@@ -37,7 +37,7 @@
       "address": "35 E. Wacker Dr. Suite 2000",
       "phone": "555-123-4567",
       "website": "https://www.feedingamerica.org/",
-      "image": "feed.jpg",
+      "image": "feeding.webp",
       "membership": "NP"
     },
     {
@@ -45,7 +45,7 @@
       "address": "12920 SE 38th St",
       "phone": "555-987-6543",
       "website": "https://www.t-mobile.com/",
-      "image": "tmobile.jpg",
+      "image": "tmobile.webp",
       "membership": "Silver"
     },
     {
@@ -53,7 +53,7 @@
       "address": "789 Oak St",
       "phone": "555-456-7890",
       "website": "https://www.verizon.com/",
-      "image": "123.jpg",
+      "image": "verizon.webp",
       "membership": "Bronze"
     }
   ]

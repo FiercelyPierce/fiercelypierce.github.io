@@ -11,15 +11,18 @@ function displayLinks(members) {
   const container = document.getElementById("linksContainer");
   const title = document.createElement("h2");
   title.textContent = "Members";
-  const newSection = document.createElement("section");
-  newSection.classList.add("memberLinks");
+  const membersSection = document.createElement("section");
+  membersSection.classList.add("grid");
+
+  container.appendChild(title);
+  container.appendChild(membersSection);
 
   links.forEach((memberObj) => {
-    const memberHeading = document.createElement("h3");
+    const newSection = document.createElement("section");
+    const memberName = document.createElement("h3");
+    memberName.textContent = memberObj.name;
+    const memberHeading = document.createElement("p");
     memberHeading.textContent = memberObj.membership + " Member";
-
-    const memberName = document.createElement("p");
-    memberName.textContent = "Name: " + memberObj.name;
     const memberAddress = document.createElement("p");
     memberAddress.textContent = "Address: " + memberObj.address;
     const memberPhone = document.createElement("p");
@@ -28,16 +31,18 @@ function displayLinks(members) {
     memberWebsite.href = memberObj.website;
     memberWebsite.textContent = "Website: " + memberObj.website;
     const memberImage = document.createElement("img");
-    memberImage.src = memberObj.image;
+    memberImage.src = "images/" + memberObj.image;
+    memberImage.alt = memberObj.name;
+    memberImage.width = "300";
+    memberImage.height = "200";
 
-    container.appendChild(title);
-    container.appendChild(newSection);
-    newSection.appendChild(memberHeading);
+    membersSection.appendChild(newSection);
     newSection.appendChild(memberName);
+    newSection.appendChild(memberHeading);
+    newSection.appendChild(memberImage);
     newSection.appendChild(memberAddress);
     newSection.appendChild(memberPhone);
     newSection.appendChild(memberWebsite);
-    newSection.appendChild(memberImage);
   });
 }
 
