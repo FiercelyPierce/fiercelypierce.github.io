@@ -210,6 +210,14 @@ img {
     padding: 1rem;
 }
 
+.banner label input {
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
