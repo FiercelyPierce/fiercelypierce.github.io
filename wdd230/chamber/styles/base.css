@@ -210,6 +210,18 @@ img {
     padding: 1rem;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner p {
+    font-size: larger;
+    font-style: bold;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
 .banner label input {
     background-color: transparent;
     border: none;
