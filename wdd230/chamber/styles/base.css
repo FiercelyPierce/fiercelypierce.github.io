@@ -120,7 +120,7 @@ div {
 h1 {
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 1rem 1rem 0 1rem;
+    padding: 0rem 1rem;
 }
 
 ul li {
@@ -197,6 +197,17 @@ img {
 #linksContainer h2 {
     text-align: center;
     margin: 1rem;
+}
+
+#forcast {
+    padding: 1rem;
+}
+
+#forcast span {
+    background-color: var(--secondary-color);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    padding: 1rem;
 }
 
 .grid {
@@ -414,8 +425,6 @@ img {
 }
 
 .weather {
-    padding: 1rem;
-    margin: 1rem 0;
     background-image: url('../images/clouds.webp');
     background-size: cover;
     background-position: center;
@@ -425,14 +434,33 @@ img {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
-.weather div {
+.weather > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
+    font-size: larger;
+    padding: 1rem;
+    margin: 0;
 }
 
-.weather figcaption {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 0.5rem;
+.weather > div p {
+    background-color: var(--secondary-color);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
+    padding: 1rem;
+}
+
+.weather img {
+    width: 75px;
+    height: auto;
+}
+
+.weather figure {
+    background-color: var(--secondary-color);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    padding: 1rem 2rem;
 }
 
 .call-to-action {

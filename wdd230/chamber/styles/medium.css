@@ -114,4 +114,9 @@
     .no-grid h2 {
         text-align: center;
     }
+
+    .weather div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
