@@ -18,16 +18,31 @@ header {
     padding: 1rem;
 }
 
-.profile {
-    max-width: 150px;
-    margin: 0.5rem;
+nav {
+    background-color: var(--secondary-color);
 }
 
-.profile img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 #hamburger {
@@ -49,8 +64,30 @@ header {
     color: white;
 }
 
-nav {
-    background-color: var(--secondary-color);
+#weather figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#weather span,
+#weather figcaption {
+    margin: 0.5rem;
+}
+
+.profile {
+    max-width: 150px;
+    margin: 0.5rem;
+}
+
+.profile img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
 }
 
 .navigation {
@@ -127,29 +164,6 @@ nav {
     max-width: 100%;
     border-radius: 5px;
     border: 0;
-}
-
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 2rem;
-}
-
-h2 {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin: 2rem 0;
-}
-
-h3 {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-}
-
-p {
-    margin-bottom: 10px;
 }
 
 .card {
