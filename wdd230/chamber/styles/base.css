@@ -190,17 +190,6 @@ img {
   height: 0;
 }
 
-#windchill {
-    padding: 1rem;
-    margin: 1rem 0;
-    background-image: url('../images/snow.webp');
-    background-size: cover;
-    background-position: center;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.5);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
 #linksContainer {
     background-color: white;
 }
@@ -430,8 +419,20 @@ img {
     background-image: url('../images/clouds.webp');
     background-size: cover;
     background-position: center;
+    border-top: 2px solid var(--terciary-color);
+    border-bottom: 2px solid var(--terciary-color);
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.weather div {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.weather figcaption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+    border-radius: 6px;
 }
 
 .call-to-action {

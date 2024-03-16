@@ -80,11 +80,14 @@
           </ul>
       </section>
       <section class="weather">
-        <h2>Weather</h2>
-        <p>Wind Chill: <span id="windchill"></span></p>
-        <input id="currentTemp" type="text" placeholder="Enter temperature">
-        <input id="currentWindspeed" type="text" placeholder="Enter windspeed">
-        <button id="submitTemp">Submit</button>
+        <div>
+          <h2>Weather</h2>
+          <p>Temperature: <span id="current-temp"></span></p>
+          <figure>
+            <img id="weather-icon">
+            <figcaption></figcaption>
+          </figure>
+        </div>
       </section>
       <section class="card">
           <h2>Spotlights</h2>
@@ -113,6 +116,6 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/getdates.js"></script>
   <script src="scripts/darkmode.js"></script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 </html>
