@@ -113,7 +113,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-div {
+main > div {
     margin: 0 auto;
 }
 
@@ -234,14 +234,14 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-.grid section {
+.grid div {
     background-color: white;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
     margin: 1rem;
 }
 
-.grid section h3 {
+.grid div h3 {
     background-color: var(--secondary-color);
     color: white;
     padding: 1rem;
@@ -250,14 +250,14 @@ img {
     text-align: center;
 }
 
-.grid section p,
-.grid section a {
+.grid div p,
+.grid div a {
     padding: 0.5rem 1rem;
     text-decoration: none;
     text-align: center;
 }
 
-.grid section a {
+.grid div a {
     color: var(--secondary-color);
     background-color: var(--terciary-color);
     border-radius: 6px;
@@ -266,7 +266,7 @@ img {
     transition-duration: 0.25s;
 }
 
-.grid section a:hover {
+.grid div a:hover {
     background-color: var(--secondary-color);
     color: var(--terciary-color);
     transition-duration: 0.25s;
@@ -282,30 +282,24 @@ img {
 .list {
 	display: flex;
 	flex-direction: column;
+    flex-wrap: wrap;
     margin: 1rem;
 }
 
-.list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-	margin: 0;
-	padding: 0.25rem;
+.list div {
+    text-align: center;
+    padding: 0.5rem;
 }
 
-.list section > * {
-	margin: 0 1rem;
+.list div img {
+	display: none;
 }
 
-.list section img {
-	display: none; /* smaller viewports only */
-}
-
-.list section h3 {
+.list div h3 {
 	font-size: 1rem;
 }
 
-.list section:nth-child(odd) {
+.list div:nth-child(odd) {
 	background-color: var(--terciary-color);
 }
 

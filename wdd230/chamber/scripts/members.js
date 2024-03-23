@@ -10,13 +10,13 @@ async function getLinks() {
 }
 
 gridButton.addEventListener("click", () => {
-  const membersSection = document.querySelector("#linksContainer section");
+  const membersSection = document.querySelector("#linksContainer div");
   membersSection.classList.remove("list");
   membersSection.classList.add("grid");
 });
 
 listButton.addEventListener("click", () => {
-  const membersSection = document.querySelector("#linksContainer section");
+  const membersSection = document.querySelector("#linksContainer div");
   membersSection.classList.remove("grid");
   membersSection.classList.add("list");
 });
@@ -26,14 +26,14 @@ function displayLinks(members) {
   const container = document.getElementById("linksContainer");
   const title = document.createElement("h2");
   title.textContent = "Members";
-  const membersSection = document.createElement("section");
+  const membersSection = document.createElement("div");
   membersSection.classList.add("grid");
 
   container.appendChild(title);
   container.appendChild(membersSection);
 
   links.forEach((memberObj) => {
-    const newSection = document.createElement("section");
+    const newSection = document.createElement("div");
     const memberName = document.createElement("h3");
     memberName.textContent = memberObj.name;
     const memberHeading = document.createElement("p");
