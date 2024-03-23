@@ -16,6 +16,13 @@
         display: none;
     }
 
+    #forcast span {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 0.25rem;
+    }
+
     /* Class selectors */
     .navigation {
         display: flex;

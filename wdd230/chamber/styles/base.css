@@ -500,6 +500,22 @@ img {
     background-color: var(--primary-color) !important; 
 }
 
+.spotlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--terciary-color);
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.spotlight div a {
+    color: black;
+}
+
 footer {
     border-top: var(--bord);
     background-color: var(--secondary-color);
