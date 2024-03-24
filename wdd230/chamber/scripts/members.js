@@ -44,7 +44,7 @@ function displayLinks(members) {
     memberPhone.textContent = memberObj.phone;
     const memberWebsite = document.createElement("a");
     memberWebsite.href = memberObj.website;
-    memberWebsite.textContent = memberObj.website;
+    memberWebsite.textContent = "Website Link";
     const memberImage = document.createElement("img");
     memberImage.src = "images/" + memberObj.image;
     memberImage.alt = memberObj.name;

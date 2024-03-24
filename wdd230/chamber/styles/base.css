@@ -255,6 +255,7 @@ img {
     padding: 0.5rem 1rem;
     text-decoration: none;
     text-align: center;
+    color: black !important;
 }
 
 .grid div a {
@@ -510,10 +511,6 @@ img {
     border-bottom: 2px solid var(--secondary-color);
     padding: 1rem;
     margin: 1rem 0;
-}
-
-.spotlight div a {
-    color: black;
 }
 
 footer {
