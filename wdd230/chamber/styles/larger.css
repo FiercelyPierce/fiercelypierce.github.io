@@ -3,6 +3,10 @@
         font-size: 2.2rem;
     }
 
+    .navigation li a {
+        padding: 0.5rem 3.5rem;
+    }
+
     .preview-event {
         display: grid;
         grid-template-columns: 1fr 1fr;

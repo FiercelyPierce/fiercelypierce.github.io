@@ -142,6 +142,7 @@ main div p {
 }
 
 img {
+    border-radius: 6px;
     max-width: 90%;
     height: auto;
     padding: 1rem;
@@ -373,7 +374,7 @@ img {
 }
 
 .navigation li {
-    padding: 0.5rem;
+    padding: 0.25rem;
     flex: 1 1 auto;
     margin: 0;
     background-color: var(--secondary-color);
@@ -386,7 +387,7 @@ img {
 }
 
 .navigation li a {
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -428,6 +429,10 @@ img {
     background-color: var(--terciary-color);
     border-top: 2px solid var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
+}
+
+.card img {
+    padding: 0;
 }
 
 .event {

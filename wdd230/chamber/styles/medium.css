@@ -93,7 +93,7 @@
     
     .event {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         padding: 1rem;
         margin: 1rem 0;
     }
